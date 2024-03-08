@@ -43,6 +43,7 @@
                             </div>
 
                             <button type="submit" class="btn btn-primary">Update Product</button>
+                            <a href="{{ route('products.show') }}" class="btn btn-secondary btn-block mt-3">View Page</a>
                         </form>
                     </div>
                 </div>

@@ -7,7 +7,6 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="{{ asset('css/creatcss.css') }}" rel="stylesheet">
     <title>View All Products</title>
-
 </head>
 <body>
     <div class="container">
@@ -17,6 +16,7 @@
                 <div class="d-flex justify-content-between mt-4">
                     <a href="{{ route('products.create') }}" class="btn btn-success btn-create">Create Product</a>
                     <a href="{{ route('products.delete') }}" class="btn btn-danger btn-delete">Delete Products</a>
+                    <a href="{{ route('dashboard') }}" class="btn btn-info btn-dashboard">Dashboard</a>
                 </div>
             </div>
         </div>
