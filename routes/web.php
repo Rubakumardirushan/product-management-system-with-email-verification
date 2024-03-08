@@ -14,7 +14,7 @@ use App\Http\Controllers\productcontroller;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.register');
 });
 
 Route::middleware([
