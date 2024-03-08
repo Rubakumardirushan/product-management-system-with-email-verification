@@ -1,0 +1,37 @@
+*{
+    font-family: Georgia, serif;
+  }
+
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+}
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.card-header {
+    background-color: #007bff;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 10px 10px 0 0;
+    text-align: center;
+}
+.form-group label {
+    font-weight: bold;
+}
+.form-control {
+    border-radius: 5px;
+}
+button[type="submit"] {
+    background-color: #007bff;
+    border-color: #007bff;
+    border-radius: 5px;
+    width: 100%;
+}
+button[type="submit"]:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
